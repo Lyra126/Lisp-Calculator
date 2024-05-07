@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - CalculatorTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>CalculatorTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/oop.practical.lispcalculator.calculator.html">oop.practical.lispcalculator.calculator</a> &gt; CalculatorTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">82</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.920s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">[1] Empty, (add), 0</td>
+<td class="success">testAdd(String, String, BigDecimal)[1]</td>
+<td class="success">0.312s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Single, (add 1), 1</td>
+<td class="success">testAdd(String, String, BigDecimal)[2]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Multiple, (add 1 2 3), 6</td>
+<td class="success">testAdd(String, String, BigDecimal)[3]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] Symbol, (+), 0</td>
+<td class="success">testAdd(String, String, BigDecimal)[4]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Zero, (cos 0), 1.0</td>
+<td class="success">testCos(String, String, BigDecimal)[1]</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Undefined, (cos ???), null</td>
+<td class="success">testCos(String, String, BigDecimal)[2]</td>
+<td class="success">0.151s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Big Value, (cos 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999), null</td>
+<td class="success">testCos(String, String, BigDecimal)[3]</td>
+<td class="success">0.047s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] Excessive Arguments, (cos 1 2), null</td>
+<td class="success">testCos(String, String, BigDecimal)[4]</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] Undefined, (cos ???), null</td>
+<td class="success">testCos(String, String, BigDecimal)[5]</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] Missing Arguments, (cos), null</td>
+<td class="success">testCos(String, String, BigDecimal)[6]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[10] Pair Rounding(2), (div 10 4), 2</td>
+<td class="success">testDiv(String, String, BigDecimal)[10]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[11] Pair Rounding(3), (div 7 9), 1</td>
+<td class="success">testDiv(String, String, BigDecimal)[11]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[12] Pair Rounding(4), (div 9 8), 1</td>
+<td class="success">testDiv(String, String, BigDecimal)[12]</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[13] Pair Rounding(5), (div 10.0 5.0), 2.0</td>
+<td class="success">testDiv(String, String, BigDecimal)[13]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Empty, (div), null</td>
+<td class="success">testDiv(String, String, BigDecimal)[1]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Single(r), (div 2), 0</td>
+<td class="success">testDiv(String, String, BigDecimal)[2]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Single, (div 2.0), 0.5</td>
+<td class="success">testDiv(String, String, BigDecimal)[3]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] Multiple, (div 1.0 2.0 3.0), 0.2</td>
+<td class="success">testDiv(String, String, BigDecimal)[4]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] Symbol, (/ 2.0), 0.5</td>
+<td class="success">testDiv(String, String, BigDecimal)[5]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] DBZ (1), (div 0 0), null</td>
+<td class="success">testDiv(String, String, BigDecimal)[6]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[7] DBZ (2), (div 1 0), null</td>
+<td class="success">testDiv(String, String, BigDecimal)[7]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[8] DBZ (3), (div 0 1), 0</td>
+<td class="success">testDiv(String, String, BigDecimal)[8]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[9] Pair Rounding(1), (div 6 4), 2</td>
+<td class="success">testDiv(String, String, BigDecimal)[9]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] E, e, 2.718281828459045</td>
+<td class="success">testIdentifier(String, String, BigDecimal)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] PI, pi, 3.141592653589793</td>
+<td class="success">testIdentifier(String, String, BigDecimal)[2]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Undefined, undefined, null</td>
+<td class="success">testIdentifier(String, String, BigDecimal)[3]</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Pos Pos, (mod 7 2), 1</td>
+<td class="success">testMod(String, String, BigDecimal)[1]</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Neg Pos (1), (mod -7 2), 1</td>
+<td class="success">testMod(String, String, BigDecimal)[2]</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Neg Pos (2), (mod -7 3), 2</td>
+<td class="success">testMod(String, String, BigDecimal)[3]</td>
+<td class="success">0.026s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] Neg Neg, (mod -7 -2), null</td>
+<td class="success">testMod(String, String, BigDecimal)[4]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] Pos Neg, (mod 7 -2), null</td>
+<td class="success">testMod(String, String, BigDecimal)[5]</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] DBZ (1), (mod 7 0), null</td>
+<td class="success">testMod(String, String, BigDecimal)[6]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[7] DBZ (2), (mod 0 0), null</td>
+<td class="success">testMod(String, String, BigDecimal)[7]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[8] DBZ (3), (mod 0 8), 0</td>
+<td class="success">testMod(String, String, BigDecimal)[8]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[9] DBZ (3), (mod 8 4), 0</td>
+<td class="success">testMod(String, String, BigDecimal)[9]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Empty, (mul), 1</td>
+<td class="success">testMul(String, String, BigDecimal)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Single, (mul 2), 2</td>
+<td class="success">testMul(String, String, BigDecimal)[2]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Zero, (mul 0 0), 0</td>
+<td class="success">testMul(String, String, BigDecimal)[3]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] Single, (mul 2.5 2.5), 6.25</td>
+<td class="success">testMul(String, String, BigDecimal)[4]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] Multiple, (mul 2 3 4), 24</td>
+<td class="success">testMul(String, String, BigDecimal)[5]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] Symbol, (*), 1</td>
+<td class="success">testMul(String, String, BigDecimal)[6]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Integer, 1, 1</td>
+<td class="success">testNumber(String, String, BigDecimal)[1]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Decimal, 1.0, 1.0</td>
+<td class="success">testNumber(String, String, BigDecimal)[2]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Empty, (pow), null</td>
+<td class="success">testPow(String, String, BigDecimal)[1]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Single, (pow 2), null</td>
+<td class="success">testPow(String, String, BigDecimal)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Regular, (pow 2 3), 8</td>
+<td class="success">testPow(String, String, BigDecimal)[3]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] &gt; 2, (pow 1 2 3), null</td>
+<td class="success">testPow(String, String, BigDecimal)[4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] Non-Int, (pow 2 2.5), null</td>
+<td class="success">testPow(String, String, BigDecimal)[5]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] Negative, (pow 2 -1), null</td>
+<td class="success">testPow(String, String, BigDecimal)[6]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[7] Big Num, (pow 2 4294967298), null</td>
+<td class="success">testPow(String, String, BigDecimal)[7]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Pos Pos, (rem 7 2), 1</td>
+<td class="success">testRem(String, String, BigDecimal)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Neg Pos, (rem -7 2), -1</td>
+<td class="success">testRem(String, String, BigDecimal)[2]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Pos Neg, (rem 7 -2), 1</td>
+<td class="success">testRem(String, String, BigDecimal)[3]</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] Neg Neg, (rem -7 -2), -1</td>
+<td class="success">testRem(String, String, BigDecimal)[4]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] DBZ (1), (rem 7 0), null</td>
+<td class="success">testRem(String, String, BigDecimal)[5]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] DBZ (2), (rem 0 0), null</td>
+<td class="success">testRem(String, String, BigDecimal)[6]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[7] DBZ (3), (rem 0 8), 0</td>
+<td class="success">testRem(String, String, BigDecimal)[7]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Zero, (sin 0), 0.0</td>
+<td class="success">testSin(String, String, BigDecimal)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] One, (sin 1.0), 0.8414709848078965</td>
+<td class="success">testSin(String, String, BigDecimal)[2]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] PI/2, (sin 1.5707963267948966), 1.0</td>
+<td class="success">testSin(String, String, BigDecimal)[3]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] Above 2PI, (sin 31.41592653589793), -1.2246467991473533E-15</td>
+<td class="success">testSin(String, String, BigDecimal)[4]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] Big Value, (sin 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999), null</td>
+<td class="success">testSin(String, String, BigDecimal)[5]</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] Undefined, (sin ???), null</td>
+<td class="success">testSin(String, String, BigDecimal)[6]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[7] Missing Arguments, (sin), null</td>
+<td class="success">testSin(String, String, BigDecimal)[7]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[8] Excessive Arguments, (sin 1 2), null</td>
+<td class="success">testSin(String, String, BigDecimal)[8]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[10] Fraction (1), (sqrt 0.25), 0.5</td>
+<td class="success">testSqrt(String, String, BigDecimal)[10]</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[11] Negative (1), (sqrt -1), null</td>
+<td class="success">testSqrt(String, String, BigDecimal)[11]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[12] Missing Arguments (1), (sqrt), null</td>
+<td class="success">testSqrt(String, String, BigDecimal)[12]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[13] Excess Arguments (1), (sqrt 1 2), null</td>
+<td class="success">testSqrt(String, String, BigDecimal)[13]</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Empty, (sqrt), null</td>
+<td class="success">testSqrt(String, String, BigDecimal)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Regular, (sqrt 4), 2</td>
+<td class="success">testSqrt(String, String, BigDecimal)[2]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Regular with Dec, (sqrt 16.0), 4</td>
+<td class="success">testSqrt(String, String, BigDecimal)[3]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] Regular with Dec, (sqrt 4.0), 2</td>
+<td class="success">testSqrt(String, String, BigDecimal)[4]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] Neg, (sqrt -1), null</td>
+<td class="success">testSqrt(String, String, BigDecimal)[5]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6]  Integer (1), (sqrt 4), 2</td>
+<td class="success">testSqrt(String, String, BigDecimal)[6]</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[7]  Perfect Square Precision (1), (sqrt 4.0), 2</td>
+<td class="success">testSqrt(String, String, BigDecimal)[7]</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[8] Decimal (1), (sqrt 2.000), 1.414</td>
+<td class="success">testSqrt(String, String, BigDecimal)[8]</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[9] Zero (1), (sqrt 0), 0</td>
+<td class="success">testSqrt(String, String, BigDecimal)[9]</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] Empty, (sub), null</td>
+<td class="success">testSub(String, String, BigDecimal)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] Single, (sub 1), -1</td>
+<td class="success">testSub(String, String, BigDecimal)[2]</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] Multiple, (sub 1 2 3), -4</td>
+<td class="success">testSub(String, String, BigDecimal)[3]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] Symbol, (- 1), -1</td>
+<td class="success">testSub(String, String, BigDecimal)[4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.5</a> at Jan 30, 2024, 5:25:14 PM</p>
+</div>
+</div>
+</body>
+</html>

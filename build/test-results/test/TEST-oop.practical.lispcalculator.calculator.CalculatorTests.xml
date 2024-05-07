@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="oop.practical.lispcalculator.calculator.CalculatorTests" tests="82" skipped="0" failures="0" errors="0" timestamp="2024-01-30T22:25:12" hostname="Elite.local" time="1.698">
+  <properties/>
+  <testcase name="[1] Empty, (add), 0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.312"/>
+  <testcase name="[2] Single, (add 1), 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.005"/>
+  <testcase name="[3] Multiple, (add 1 2 3), 6" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[4] Symbol, (+), 0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[1] Zero, (cos 0), 1.0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.008"/>
+  <testcase name="[2] Undefined, (cos ???), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.151"/>
+  <testcase name="[3] Big Value, (cos 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.047"/>
+  <testcase name="[4] Excessive Arguments, (cos 1 2), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.017"/>
+  <testcase name="[5] Undefined, (cos ???), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.014"/>
+  <testcase name="[6] Missing Arguments, (cos), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[1] Empty, (div), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[2] Single(r), (div 2), 0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[3] Single, (div 2.0), 0.5" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.006"/>
+  <testcase name="[4] Multiple, (div 1.0 2.0 3.0), 0.2" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.006"/>
+  <testcase name="[5] Symbol, (/ 2.0), 0.5" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.007"/>
+  <testcase name="[6] DBZ (1), (div 0 0), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[7] DBZ (2), (div 1 0), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.005"/>
+  <testcase name="[8] DBZ (3), (div 0 1), 0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.005"/>
+  <testcase name="[9] Pair Rounding(1), (div 6 4), 2" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[10] Pair Rounding(2), (div 10 4), 2" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[11] Pair Rounding(3), (div 7 9), 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[12] Pair Rounding(4), (div 9 8), 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.011"/>
+  <testcase name="[13] Pair Rounding(5), (div 10.0 5.0), 2.0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[1] Pos Pos, (mod 7 2), 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.008"/>
+  <testcase name="[2] Neg Pos (1), (mod -7 2), 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.013"/>
+  <testcase name="[3] Neg Pos (2), (mod -7 3), 2" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.026"/>
+  <testcase name="[4] Neg Neg, (mod -7 -2), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[5] Pos Neg, (mod 7 -2), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.011"/>
+  <testcase name="[6] DBZ (1), (mod 7 0), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.006"/>
+  <testcase name="[7] DBZ (2), (mod 0 0), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[8] DBZ (3), (mod 0 8), 0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[9] DBZ (3), (mod 8 4), 0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[1] Empty, (mul), 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[2] Single, (mul 2), 2" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[3] Zero, (mul 0 0), 0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[4] Single, (mul 2.5 2.5), 6.25" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[5] Multiple, (mul 2 3 4), 24" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[6] Symbol, (*), 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[1] Empty, (pow), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[2] Single, (pow 2), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[3] Regular, (pow 2 3), 8" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[4] &gt; 2, (pow 1 2 3), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[5] Non-Int, (pow 2 2.5), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[6] Negative, (pow 2 -1), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[7] Big Num, (pow 2 4294967298), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[1] Pos Pos, (rem 7 2), 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[2] Neg Pos, (rem -7 2), -1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[3] Pos Neg, (rem 7 -2), 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.022"/>
+  <testcase name="[4] Neg Neg, (rem -7 -2), -1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[5] DBZ (1), (rem 7 0), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[6] DBZ (2), (rem 0 0), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.006"/>
+  <testcase name="[7] DBZ (3), (rem 0 8), 0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[1] Zero, (sin 0), 0.0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[2] One, (sin 1.0), 0.8414709848078965" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[3] PI/2, (sin 1.5707963267948966), 1.0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[4] Above 2PI, (sin 31.41592653589793), -1.2246467991473533E-15" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[5] Big Value, (sin 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.006"/>
+  <testcase name="[6] Undefined, (sin ???), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[7] Missing Arguments, (sin), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[8] Excessive Arguments, (sin 1 2), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.007"/>
+  <testcase name="[1] Empty, (sub), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[2] Single, (sub 1), -1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[3] Multiple, (sub 1 2 3), -4" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[4] Symbol, (- 1), -1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.001"/>
+  <testcase name="[1] Empty, (sqrt), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[2] Regular, (sqrt 4), 2" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[3] Regular with Dec, (sqrt 16.0), 4" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[4] Regular with Dec, (sqrt 4.0), 2" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[5] Neg, (sqrt -1), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[6]  Integer (1), (sqrt 4), 2" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.005"/>
+  <testcase name="[7]  Perfect Square Precision (1), (sqrt 4.0), 2" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.024"/>
+  <testcase name="[8] Decimal (1), (sqrt 2.000), 1.414" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.007"/>
+  <testcase name="[9] Zero (1), (sqrt 0), 0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.008"/>
+  <testcase name="[10] Fraction (1), (sqrt 0.25), 0.5" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.012"/>
+  <testcase name="[11] Negative (1), (sqrt -1), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[12] Missing Arguments (1), (sqrt), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.003"/>
+  <testcase name="[13] Excess Arguments (1), (sqrt 1 2), null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.018"/>
+  <testcase name="[1] Integer, 1, 1" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[2] Decimal, 1.0, 1.0" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.005"/>
+  <testcase name="[1] E, e, 2.718281828459045" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.002"/>
+  <testcase name="[2] PI, pi, 3.141592653589793" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.004"/>
+  <testcase name="[3] Undefined, undefined, null" classname="oop.practical.lispcalculator.calculator.CalculatorTests" time="0.011"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
